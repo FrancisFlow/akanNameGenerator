@@ -22,4 +22,8 @@ day=document.querySelector('#day').value;
     return document.getElementById("answer").innerHTML = "Your Akan name is " + " " + arrayMale[Math.round(d)];
   } else(console.log(day))
 
-} 
+}
+function removeAnswer() {
+  let removed=document.getElementById("answer").innerHTML="";
+  return removed;
+}
