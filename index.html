@@ -40,31 +40,32 @@
             <form class="" action="index.html" method="post">
               <div class="form-group">
                 <label for="day">Day</label>
-                <input type="number" class="form-control id=" day" "name="" value="">
+                <input type="number" class="form-control" name="day" id="day">
             </div>
             <div class=" form-group">
                 <label for="month">Month</label>
-                <input type="number" class="form-control id=" month" "name="" value="">
+                <input type="number" class="form-control" id="month" name="month" value="">
             </div>
             <div class=" form-group">
                 <label for="year">Year</label>
-                <input type="number" class="form-control id=" year" "name="" value="">
+                <input type="text" class="form-control" id="year" name="year" value="">
             </div>
-            <div class=" form-group">
+            <div class="form-group">
                 <label for="gender">Select gender</label>
                 <select class="form-control" id="gender">
-                  <option>Female</option>
-                  <option>Male</option>
+                  <option name="Female" id="Female">Female</option>
+                  <option name="Male" id="Male">Male</option>
                 </select>
               </div>
-              <button type="submit" class="btn btn-primary">Find out</button>
+              <button type="submit" onclick="akanNameGenerator(day, month, year, gender)" class="btn btn-primary">Find out</button>
             </form>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <div class="answer">
+  <div class="bender">
+    <p>This is text data.</p>
     <p id="answer"></p>
 
   </div>
