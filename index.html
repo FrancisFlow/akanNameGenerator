@@ -37,7 +37,7 @@
         <div class="row">
           <div class="col-xs-12">
             <h2>Enter your birthday</h2>
-            <form class="" action="" method="">
+            <form method="post" autocomplete="off" onsubmit="reset">
               <div class="form-group">
                 <label for="day">Day</label>
                 <input type="number" class="form-control" id="day">
@@ -57,6 +57,7 @@
                   <option>Male</option>
                 </select>
               </div>
+              <input type="reset" onclick="removeAnswer()" value="clear">
               <button type="button" onclick="akanNameGenerator(day, month, year, gender)" class="btn btn-primary">Find out</button>
             </form>
           </div>
@@ -64,10 +65,10 @@
       </div>
     </div>
   </section>
+
   <div class="answer">
     <p id="answer"></p>
     <div class="bender">
-      <p>This is text data.</p>
       <p id="answer"></p>
 
     </div>
