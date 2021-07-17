@@ -1,1 +1,1 @@
-alert("Hello-world");
+getElementById("myTest").innerHTML="This is war."
