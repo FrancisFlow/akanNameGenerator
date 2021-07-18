@@ -20,8 +20,8 @@ function akanNameGenerator(day, month, year, gender) {
     dayNumber = dayNumber;
   }
   let dateArray = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
-  let arrayMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-  let arrayFemale = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
+  let arrayMale = ["Kofi", "Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw"];
+  let arrayFemale = ["Afua", "Ama", "Akosua", "Adwoa", "Abenna", "Akua", "Yaa"];
   if (dd <= 0 || dd > 31 || mm <= 0 || mm > 12) {
     return alert("Invalid date, please enter a valid date");
   } else if (gender == "Female") {
