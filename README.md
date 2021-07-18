@@ -1,10 +1,10 @@
 # AkanNameGenerator
 #### The AkanNameGenerator is a web application that assigns Akan names. July 15 2021.
-#### By **{Francis Karanja Ngigi.}**
+#### By **Francis Karanja Ngigi.**
 ## Description
-{The AkanNameGenerator takes in the users birthday and their gender to assign an Akan name. Giving Akan names is a popular cultural practice in Ghana. The Akan names are given depending on the day of the week you were born and you gender. Male Akan names are different from female Akan names, despite being born on the same day. Each name corresponds to a day of the week. This application takes in the users date of birth and gender as inputs, then it calculates the day of the week the user was born, and depending on the gender, returns a corresponding Akan name. }
+The AkanNameGenerator takes in the users birthday and their gender to assign an Akan name. Giving Akan names is a popular cultural practice in Ghana. The Akan names are given depending on the day of the week you were born and you gender. Male Akan names are different from female Akan names, despite being born on the same day. Each name corresponds to a day of the week. This application takes in the users date of birth and gender as inputs, then it calculates the day of the week the user was born, and depending on the gender, returns a corresponding Akan name.
 ## Setup/Installation Requirements
-* Once you have the [link] (https://francisflow.github.io/akanNameGenerator/) to the web-app, all you need is a working internet connection and a device to visit the page.
+* Once you have the link, (https://francisflow.github.io/akanNameGenerator/), to the web-app, all you need is a working internet connection and a device to visit the page.
 * Once on the page, add your birthday and gender and discover your Akan name.
 ## Known Bugs
 When entering a date below 1000, i.e. 999, the application returns an undefined value.
