@@ -1,5 +1,51 @@
+/**introsection**/
 
+.classTop {
+  text-align: center;
+  padding: 25px;
+  margin: 0 5px;
+  background-color: #00A6ED;
+}
+.topPart {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding:10px 0;
+  margin:0;
+  font-size: 2.5rem;
+}
 
+.intro {
+  text-align: center;
+  padding: 30px 0;
+  margin: 30px;
+  font-size: 2rem;
+  background-color: #FFCA3A;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.red {
+  color: black;
+}
+.yellow {
+  color:yellow;
+}
+.green{
+  color: green;
+}
+/*formSection*/
+.container-fluid{
+  padding-bottom: 30px;
+}
+
+/*answerSection*/
+.answerRow {
+  margin: 30px 50;
+  padding: 20px;
+  background-color:#42E2B8;
+  text-align: center;
+  font-size: 2rem;
+
+}
 
 /**footerSection**/
 .connectSocial {
@@ -9,8 +55,5 @@
 
 .social-icon {
   margin: 20px 10px;
-  height: 2rem;
-}
-.bender {
-  background-color: green;
+  height: 1.4rem;
 }
