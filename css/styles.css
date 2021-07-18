@@ -1,16 +1,14 @@
 /**introsection**/
-
 .classTop {
   text-align: center;
   padding: 25px;
   margin: 0 5px;
   background-color: #00A6ED;
 }
+
 .topPart {
-  text-align: center;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  padding:10px 0;
-  margin:0;
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px 0;
   font-size: 2.5rem;
 }
 
@@ -20,20 +18,23 @@
   margin: 30px;
   font-size: 2rem;
   background-color: #FFCA3A;
-  font-family: 'Quicksand', sans-serif;
-
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
 .red {
   color: black;
 }
+
 .yellow {
-  color:yellow;
+  color: yellow;
 }
-.green{
+
+.green {
   color: green;
 }
+
 /*formSection*/
-.container-fluid{
+.container-fluid {
   padding-bottom: 30px;
 }
 
@@ -41,10 +42,9 @@
 .answerRow {
   margin: 30px 50;
   padding: 20px;
-  background-color:#42E2B8;
+  background-color: #42E2B8;
   text-align: center;
   font-size: 2rem;
-
 }
 
 /**footerSection**/
