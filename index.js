@@ -25,10 +25,10 @@ function akanNameGenerator(day, month, year, gender) {
   if (dd <= 0 || dd > 31 || mm <= 0 || mm > 12) {
     return alert("Invalid date, please enter a valid date");
   } else if (gender == "Female") {
-    return document.getElementById("answer").innerHTML = "You were born on a" + " " + dateArray[dayNumber] + ". Your Akan name is" + " " + arrayFemale[dayNumber];
+    return document.getElementById("answer").innerHTML = "You were born on a" + " " + dateArray[dayNumber] + ". Your Akan name is" + " " + arrayFemale[dayNumber] + ".";
 
   } else if (gender == "Male") {
-    return document.getElementById("answer").innerHTML = "You were born on a" + " " + dateArray[dayNumber] + ". Your Akan name is " + " " + arrayMale[dayNumber];
+    return document.getElementById("answer").innerHTML = "You were born on a" + " " + dateArray[dayNumber] + ". Your Akan name is " + " " + arrayMale[dayNumber] + ".";
   } else {
     console.log(dayNumber);
   }
