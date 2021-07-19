@@ -34,9 +34,10 @@ function akanNameGenerator(day, month, year, gender) {
     console.log(dayNumber);
   }
   if (day == "" || month == "" || year == "" || gender == "") {
-    return document.getElementById("answer").innerHTML = "Invalid input. Please fill in the valid input!";
+    return alert("Invalid input. Please fill in the valid input!");
+  } else {
+    console.log(dayNumber);
   }
-  else{console.log(dayNumber);}
 
 }
 
