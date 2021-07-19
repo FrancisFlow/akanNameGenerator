@@ -22,6 +22,9 @@ function akanNameGenerator(day, month, year, gender) {
   let dateArray = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
   let arrayMale = ["Kofi", "Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw"];
   let arrayFemale = ["Afua", "Ama", "Akosua", "Adwoa", "Abenna", "Akua", "Yaa"];
+  if (day== "" || month == "" || year== "" || gender=="") {
+    return document.getElementById("answer").innerHTML = "Please enter a valid input.";
+  }
   if (dd <= 0 || dd > 31 || mm <= 0 || mm > 12) {
     return alert("Invalid date, please enter a valid date");
   } else if (gender == "Female") {
