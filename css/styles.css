@@ -38,6 +38,15 @@
   padding-bottom: 30px;
   padding-top: 30px;
 }
+.nameGenerator{
+  background-image: url(../images/lady.jpg);
+  background-repeat:space;
+
+}
+.birthday {
+  font-family: 'Quicksand', sans-serif;
+
+}
 
 
 /*answerSection*/
