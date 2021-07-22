@@ -7,7 +7,8 @@ The AkanNameGenerator takes in the users birthday and their gender to assign an 
 * Once you have the link, (https://francisflow.github.io/akanNameGenerator/), to the web-app, all you need is a working internet connection and a device to visit the page.
 * Once on the page, add your birthday and gender and discover your Akan name.
 ## Known Bugs
-When entering a date below 1000, i.e. 999, the application returns an undefined value.
+When entering a date below 100, i.e. 99, the application returns an undefined value.
+The generator may return an undefined value for some dates. Still working to figure that out.
 ## Technologies Used
 HTML/CSS/Bootstrap/JavaScript.
 A HTML and Bootstrap form is used to collect the data to feed in as arguments to the JavaScript function.
